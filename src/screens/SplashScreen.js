@@ -11,7 +11,6 @@ const SplashScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Image source={require('../../assets/splash.png')} style={styles.logo} />
-      <Text style={styles.text}>React-Native</Text>
     </View>
   );
 };
@@ -21,19 +20,14 @@ export default SplashScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#4CAF50',
+    backgroundColor: 'white',
     justifyContent: 'center',
     alignItems: 'center',
   },
   logo: {
-    width: 100,
-    height: 100,
-    marginBottom: 20,
+    width: 150,
+    height: 150,
     padding: 10,
   },
-  text: {
-    fontSize: 24,
-    color: 'white',
-    fontWeight: 'bold',
-  },
+ 
 });
